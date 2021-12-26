@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+body{
+  font-family: 'Noto Sans KR', sans-serif;
+  color: #F1F3F8;
+  background-color: #393B44;
+}
+
+h1{
+  font-weight: 600;
+  color: #D6E0F0;
+}
+
+h2{
+  font-weight: 500;
+  color: #D6E0F0;
+}
+
+header{
+  display: flex;
+  flex-direction: row;
+}
+
+#title{
+  font-family: 'Cabin', sans-serif;
+  flex: 1;
+  text-align: center;
+  font-weight: 700;
+  text-decoration: none;
+  color: #D6E0F0;
+  margin: auto;
+  font-size: 2em;
+}
+
+#desktop_nav{
+  flex: 4;
+}
+
+#desktop_nav_ul{
+  font-family: 'Cabin', sans-serif;
+  font-weight: 600;
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  padding-left: 0px;
+}
+
+.nav_item{
+  display: flex;
+  text-align: center;
+  height: 50px;
+  border-left: solid 0.1px ;
+  border-color: #8D93AB;
+}
+
+.nav_item :hover{
+  background-color: #8D93AB;
+  color: white;
+}
+
+.nav_item a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #8D93AB;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 60px;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+#content{
+  margin-left: 50px;
+}
+
+.hidden{
+  display: none;
+}
+
+@media (max-width: 1250px){
+  body{
+    display: inline-block;
+    width: 1250px;
+  }
+}
