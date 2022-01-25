@@ -4,9 +4,19 @@ body{
   font-family: 'Noto Sans KR', sans-serif;
 }
 
+
+.main img{
+  width: 100%;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+}
+
 h1{
   font-weight: 600;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
 }
 
 h2{
@@ -20,6 +30,10 @@ h3{
 
 p{
   font-weight: 300;
+}
+
+.content{
+  margin-bottom: 100px;
 }
 
 .desktop_nav{
@@ -105,6 +119,15 @@ p{
   width: 100%;
 }
 
+iframe{
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.mindmap, iframe{
+  margin: 0 auto;
+}
+
 .resume{
   margin-bottom: 60px;
 }
@@ -112,6 +135,27 @@ p{
 .icon{
   height: 60px;
   margin-right: 30px;
+}
+
+.programming_table{
+  border-spacing: 30px;
+}
+
+#awards{
+  margin-bottom: 0px;
+  margin-top: 60px;
+}
+
+#programming{
+  margin-bottom: 0px;
+}
+
+.awards_table{
+  border-spacing: 30px;
+}
+
+li{
+  margin-bottom: 10px;
 }
 
 .hidden{
